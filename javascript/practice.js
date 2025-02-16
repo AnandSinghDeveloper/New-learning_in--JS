@@ -157,3 +157,18 @@
 // Incrementing by one gives 4321 + 1 = 4322.
 
 
+let array=[9,4,5,6,3,1,2,7];
+let temp=0;
+
+for(i=0;i<array.length-1;i++){
+  for(j=i+1;j<array.length;j++){
+    if(array[i]>array[j]){
+      array[i]=temp;
+      array[j]=array[i]
+      temp=array[j];
+
+    }
+
+  }
+  
+}
