@@ -172,3 +172,10 @@ for(i=0;i<array.length-1;i++){
   }
   
 }
+
+for(i=0;i<array.length-1;i++){
+  for(j=i+1;j<array.length;j++){
+
+    console.log(   )
+    
+}}
