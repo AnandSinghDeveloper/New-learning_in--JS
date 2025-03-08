@@ -157,25 +157,58 @@
 // Incrementing by one gives 4321 + 1 = 4322.
 
 
-let array=[9,4,5,6,3,1,2,7];
-let temp=0;
+// let array=[9,4,5,6,3,1,2,7];
+// let temp=0;
 
-for(i=0;i<array.length-1;i++){
-  for(j=i+1;j<array.length;j++){
-    if(array[i]>array[j]){
-      array[i]=temp;
-      array[j]=array[i]
-      temp=array[j];
+// for(i=0;i<array.length-1;i++){
+//   for(j=i+1;j<array.length;j++){
+//     if(array[i]>array[j]){
+//       array[i]=temp;
+//       array[j]=array[i]
+//       temp=array[j];
 
-    }
+//     }
 
-  }
+//   }
   
-}
+// }
 
-for(i=0;i<array.length-1;i++){
-  for(j=i+1;j<array.length;j++){
+// for(i=0;i<array.length-1;i++){
+//   for(j=i+1;j<array.length;j++){
 
-    console.log(   )
+//     console.log(   )
     
-}}
+// }}
+
+
+//----------------------------------------
+ 
+
+    const Promise1 = new Promise((resolve,reject)=>{   
+      
+   setTimeout(() => {
+    resolve("sucessfull")
+   }, 10000);
+
+   setTimeout(() => {
+    reject("cancalled")
+   }, 5000);
+
+    })
+
+    
+    
+    .then((res)=>console.log(res))
+    .catch((res)=>{console.log(res);
+    })
+    
+
+    console.log(Promise1);
+    
+
+    
+    
+    
+    
+   
+    
