@@ -167,48 +167,88 @@
 //       array[j]=array[i]
 //       temp=array[j];
 
-//     }
+// //     }
 
-//   }
+// //   }
   
-// }
+// // }
 
-// for(i=0;i<array.length-1;i++){
-//   for(j=i+1;j<array.length;j++){
+// // for(i=0;i<array.length-1;i++){
+// //   for(j=i+1;j<array.length;j++){
 
-//     console.log(   )
+// //     console.log(   )
     
-// }}
+// // }}
 
 
-//----------------------------------------
+// //----------------------------------------
  
 
-    const Promise1 = new Promise((resolve,reject)=>{   
+//     const Promise1 = new Promise((resolve,reject)=>{   
       
-   setTimeout(() => {
-    resolve("sucessfull")
-   }, 10000);
+//    setTimeout(() => {
+//     resolve("sucessfull1")
+//    }, 10000);
 
-   setTimeout(() => {
-    reject("cancalled")
-   }, 5000);
+  
 
-    })
+//     })
 
     
     
-    .then((res)=>console.log(res))
-    .catch((res)=>{console.log(res);
-    })
-    
+//     // .then((res)=>console.log(res))
+//     // .catch((res)=>{console.log(res);
+//     // })
 
-    console.log(Promise1);
-    
-
-    
-    
-    
-    
+//     const Promise2 = new Promise((resolve,reject)=>{   
+      
+//       setTimeout(() => {
+//        reject(console.error("error2"))
+       
+//       }, 5000);
    
+     
+   
+//        })
+
+//        const Promise3 = new Promise((resolve,reject)=>{   
+      
+//         setTimeout(() => {
+//          resolve("sucessfull3")
+//         }, 7000);
+     
+       
+     
+//          })
+    
+
+  //  Promise.all([Promise1,Promise2,Promise3])
+  //  .then((res)=>console.log(res))
+  // .catch((res)=>{console.log(res)});
+
+  // Promise.allSettled([Promise1,Promise2,Promise3])
+  // .then((res)=>console.log(res))
+  // .catch((res)=>{console.log(res)});
+
+    
+    
+  // (function(){
+  //   let arr = [1,2,3,4,5,6,7,8,9,10];
+  //   console.log(arr);
+    
+  // })()
+   
+
+  const data = fetch('https://fakestoreapi.com/products')
+
+  data.then((res)=>{
+    const data = res.json();
+   console.log(data) 
+   
+    
+  })
+  .catch((err)=>{
+    console.log(err);
+  })
+
     
