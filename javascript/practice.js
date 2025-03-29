@@ -239,21 +239,82 @@
   // })()
    
 
-  const data = fetch('https://fakestoreapi.com/products')
+  // const data = fetch('https://fakestoreapi.com/products')
 
-  data.then((res)=>{
-    const data = res.json();
-   console.log(data) 
+  // data.then((res)=>{
+  //   const data = res.json();
+  //  console.log(data) 
    
     
-  })
-  .catch((err)=>{
-    console.log(err);
-  })
+  // })
+  // .catch((err)=>{
+  //   console.log(err);
+  // })
 
 
-  let a =10
-  let b =a++
-    let c = a+b;
-    console.log(c);
+  // let a =10
+  // let b =a++
+  //   let c = a+b;
+  //   console.log(c);
     
+//  const handleClick=(e)=>{
+//    console.log(e.target.id);
+//  }
+
+
+// setTimeout(() => {
+//   let count =  0
+// const interval = setInterval(() => {
+//   console.log("minisec :", count)
+
+//   count++
+
+
+// }, 100)
+
+// }, 1000)
+
+// clearTimeout(interval)
+
+//  let sec=0;
+    
+// setTimeout(() => {
+  
+//   const interval = setInterval((count ) => {
+//     console.log("minisec :", count)
+//     count++
+//     if(count>10){
+//       clearInterval(interval)
+//       count=0;
+//       console.log("count :",count)
+//       sec++
+//     }
+//   },100)
+
+//   console.log(sec);
+
+  
+
+ 
+// }, 1000)
+
+
+// let intervlal =0
+
+// const startTimer = () => {
+//   let count =  0
+//   intervlal = setInterval(() => {
+//     console.log("minisec :", count)
+//     count++
+//   }, 100)
+// }
+
+// const stopTimer = () => {
+//   let sec=0;
+//   setTimeout(() => {
+
+//   }, 1000)
+// }
+
+
+
