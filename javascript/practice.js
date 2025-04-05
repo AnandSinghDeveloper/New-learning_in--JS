@@ -1,4 +1,3 @@
-
 //question 1  = [1,2,5,6,4,]
 // target =9;
 // output = [2,4];
@@ -25,21 +24,18 @@
 // let bigGestnum =0;
 // let sum=0;
 
-
 // for(i=0;i<arrAy.length;i++){
 //     for(j=0;j<arrAy.length;j++){
 //         if(arrAy[i]>arrAy[j]){
 //             bigGestnum=arrAy[i];
 //         }
-        
+
 //     }
 
 //     for(p=0;p<arrAy.length-1;p++){
 //         for(q=0;q<arrAy.length;q++){
-            
-          
-//         }
 
+//         }
 
 //     }
 // }
@@ -58,8 +54,6 @@
 // Output: -1
 // Explanation: 2 does not exist in nums so return -1
 
-
-
 // let Anand = (array, target) => {
 //     let left = 0;
 //     let right = array.length - 1;
@@ -68,22 +62,22 @@
 //     while (left <= right) {
 //         mid = Math.floor((left + right) / 2);
 //         if (array[mid] === target) {
-//             return mid;  
+//             return mid;
 //         } else if (array[mid] < target) {
 //             left = mid + 1;
 //         } else {
 //             right = mid - 1;
 //         }
 //     }
-    
-//     return mid;  
+
+//     return mid;
 // }
 
 // let ans = Anand([1, 2, 3, 4, 5, 6], 3);
 // console.log(ans);
 
-  //question 4
-  //----------------------------------------------
+//question 4
+//----------------------------------------------
 //   Example 1:
 
 // Input: nums = [0,1,0,3,12]
@@ -107,14 +101,6 @@
 
 // console.log(array[i]);
 
-
-    
-
-    
-    
-
-
-
 //question 5
 
 // Input: nums = [3,2,3]
@@ -123,7 +109,6 @@
 
 // Input: nums = [2,2,1,1,1,2,2]
 // Output: 2
-      
 
 //question 6
 //------------------------------
@@ -156,7 +141,6 @@
 // Explanation: The array represents the integer 4321.
 // Incrementing by one gives 4321 + 1 = 4322.
 
-
 // let array=[9,4,5,6,3,1,2,7];
 // let temp=0;
 
@@ -170,97 +154,80 @@
 // //     }
 
 // //   }
-  
+
 // // }
 
 // // for(i=0;i<array.length-1;i++){
 // //   for(j=i+1;j<array.length;j++){
 
 // //     console.log(   )
-    
+
 // // }}
 
-
 // //----------------------------------------
- 
 
-//     const Promise1 = new Promise((resolve,reject)=>{   
-      
+//     const Promise1 = new Promise((resolve,reject)=>{
+
 //    setTimeout(() => {
 //     resolve("sucessfull1")
 //    }, 10000);
 
-  
-
 //     })
 
-    
-    
 //     // .then((res)=>console.log(res))
 //     // .catch((res)=>{console.log(res);
 //     // })
 
-//     const Promise2 = new Promise((resolve,reject)=>{   
-      
+//     const Promise2 = new Promise((resolve,reject)=>{
+
 //       setTimeout(() => {
 //        reject(console.error("error2"))
-       
+
 //       }, 5000);
-   
-     
-   
+
 //        })
 
-//        const Promise3 = new Promise((resolve,reject)=>{   
-      
+//        const Promise3 = new Promise((resolve,reject)=>{
+
 //         setTimeout(() => {
 //          resolve("sucessfull3")
 //         }, 7000);
-     
-       
-     
+
 //          })
-    
 
-  //  Promise.all([Promise1,Promise2,Promise3])
-  //  .then((res)=>console.log(res))
-  // .catch((res)=>{console.log(res)});
+//  Promise.all([Promise1,Promise2,Promise3])
+//  .then((res)=>console.log(res))
+// .catch((res)=>{console.log(res)});
 
-  // Promise.allSettled([Promise1,Promise2,Promise3])
-  // .then((res)=>console.log(res))
-  // .catch((res)=>{console.log(res)});
+// Promise.allSettled([Promise1,Promise2,Promise3])
+// .then((res)=>console.log(res))
+// .catch((res)=>{console.log(res)});
 
-    
-    
-  // (function(){
-  //   let arr = [1,2,3,4,5,6,7,8,9,10];
-  //   console.log(arr);
-    
-  // })()
-   
+// (function(){
+//   let arr = [1,2,3,4,5,6,7,8,9,10];
+//   console.log(arr);
 
-  // const data = fetch('https://fakestoreapi.com/products')
+// })()
 
-  // data.then((res)=>{
-  //   const data = res.json();
-  //  console.log(data) 
-   
-    
-  // })
-  // .catch((err)=>{
-  //   console.log(err);
-  // })
+// const data = fetch('https://fakestoreapi.com/products')
 
+// data.then((res)=>{
+//   const data = res.json();
+//  console.log(data)
 
-  // let a =10
-  // let b =a++
-  //   let c = a+b;
-  //   console.log(c);
-    
+// })
+// .catch((err)=>{
+//   console.log(err);
+// })
+
+// let a =10
+// let b =a++
+//   let c = a+b;
+//   console.log(c);
+
 //  const handleClick=(e)=>{
 //    console.log(e.target.id);
 //  }
-
 
 // setTimeout(() => {
 //   let count =  0
@@ -269,7 +236,6 @@
 
 //   count++
 
-
 // }, 100)
 
 // }, 1000)
@@ -277,9 +243,9 @@
 // clearTimeout(interval)
 
 //  let sec=0;
-    
+
 // setTimeout(() => {
-  
+
 //   const interval = setInterval((count ) => {
 //     console.log("minisec :", count)
 //     count++
@@ -293,11 +259,7 @@
 
 //   console.log(sec);
 
-  
-
- 
 // }, 1000)
-
 
 // let intervlal =0
 
@@ -316,5 +278,36 @@
 //   }, 1000)
 // }
 
+// let a=10;
+// let b=a++;
+// let c = a+b;
+
+// console.log( c )
+
+// let a = b;
+// let b = 10;
+
+// let c = (a = b);
+
+// console.log(c + a + b);
 
 
+// let a = 1;
+// const gethi= ()=>{
+//    b = 2 
+//   return a+b;
+// }
+// console.log(gethi());
+
+
+
+console.log('start');
+
+setTimeout(() => {
+  console.log('setTimeout');
+}, 1000);
+
+Promise.resolve(1).then(
+  () => console.log('i am promise'));
+
+console.log('end');
