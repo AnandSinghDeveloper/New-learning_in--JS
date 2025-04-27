@@ -301,13 +301,45 @@
 
 
 
-console.log('start');
+// console.log('start');
 
-setTimeout(() => {
-  console.log('setTimeout');
-}, 1000);
+// setTimeout(() => {
+//   console.log('setTimeout');
+// }, 1000);
 
-Promise.resolve(1).then(
-  () => console.log('i am promise'));
+// Promise.resolve(1).then(
+//   () => console.log('i am promise'));
 
-console.log('end');
+// console.log('end');
+
+// const arr = [{
+//   id : 1,
+//   name: 'a',},
+//   {
+//     id : 2,
+//     name: 'b',
+//   },
+//   {
+//     id : 3,
+//     name: 'c',
+//  }]
+
+//  const remove = (arr,id)=>{
+//    arr.filter((item)=>{
+//      return item.id !== id
+//    })
+
+//    console.log(arr)
+
+//  }
+
+//  remove(arr,2)
+
+
+
+const num = [1,2,3,4,5,64]
+
+const  total = num.reduce((sum , number)=> {sum+ number})
+
+console.log(total)
+
